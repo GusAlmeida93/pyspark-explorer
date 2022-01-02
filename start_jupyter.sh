@@ -1,1 +1,1 @@
- docker container run -p 8888:8888 -ti --mount type=bind,src=${PWD},dst=/explorer gusalmeida93/pyspark-explorer:1.0
+ docker container run -p 8888:8888 -p 4050:4050 -ti --mount type=bind,src=${PWD},dst=/explorer gusalmeida93/pyspark-explorer:1.0
